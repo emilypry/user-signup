@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <h1>Signup</h1>
+    </head>
+
+    <body>
+        <form action='/error' method='POST'>
+            Username 
+            <input type='text' name = 'user' />
+            <font color = 'red'>{{e1}}</font>
+            <br>
+            Password
+            <input type='password' name = 'password' />
+            <font color = 'red'>{{e2}}</font>
+            <br>
+            Verify Password
+            <input type='password' name = 'verify' />
+            <font color = 'red'>{{e3}}</font>
+            <br>
+            Email (optional)
+            <input type='text' name = 'email' />   
+            <font color = 'red'>{{e4}}</font>
+            <br>
+            <input type='submit' name = 'submit' /> 
+        </form>  
+    </body>
+</html>
