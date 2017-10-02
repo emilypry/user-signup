@@ -30,7 +30,7 @@ def get_errors():
         error = True
 
     if error==True:
-        return render_template('main.html', e1=e1, e2=e2, e3=e3, e4=e4)
+        return render_template('main.html', username=username, email = email, e1=e1, e2=e2, e3=e3, e4=e4)
     if error==False:
         return render_template('welcome.html', username=username)
 

@@ -7,7 +7,7 @@
     <body>
         <form action='/error' method='POST'>
             Username 
-            <input type='text' name = 'user' />
+            <input type='text' name = 'user' value = {{username}} >
             <font color = 'red'>{{e1}}</font>
             <br>
             Password
@@ -19,7 +19,7 @@
             <font color = 'red'>{{e3}}</font>
             <br>
             Email (optional)
-            <input type='text' name = 'email' />   
+            <input type='text' name = 'email'  value = {{email}}>   
             <font color = 'red'>{{e4}}</font>
             <br>
             <input type='submit' name = 'submit' /> 
